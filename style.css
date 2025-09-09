@@ -5,25 +5,27 @@
 
 .download-button-1, .download-button-2, .github-button{
     background: transparent;
-    border-radius: 3px;
+    border-radius: 10px;
     color: #fff;
     display: inline-block;
     line-height: 1;
     vertical-align: middle;
     transition: background-color .3s,border-color .3s,color .3s;
+    cursor: pointer;
 }
 
 .download-button-1{
-    background: #2cc302;
+    background: #00acff;
     display: block;
     line-height: 1.4286;
     margin-right: 20px;
-    padding: 8px 20px;
-    border-radius: 9999px;
+    padding: 7px 40px;
+    border-radius: 20px;
+    box-shadow: 2 20px 30px rgba(0,0,0,0.1);
 }
 
 .download-button-1:hover{
-    background-color: #259f02;
+    background-color: #1272a1;
 }
 
 .download-button-2{
@@ -33,13 +35,19 @@
 }
 
 .github-button{
-    background: #333;
-    border: 1px solid #333;
+    background: #444;
+    border: 1px solid #444;
     display: block;
     line-height: 1.4286;
     margin-right: 20px;
     padding: 8px 20px;
-    border-radius: 9999px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.github-button:hover{
+    background-color: #555;
+    border-color: #555;
 }
 
 
@@ -84,11 +92,13 @@
 
 .download-text{
     margin-left: 5px;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 @media screen and (max-width: 600px) {
     .download-text{
-        margin-left: 5px;
+		margin-left: 5px;
         display: none;
     }
 }
@@ -98,4 +108,64 @@
     .p2hv .stopoverlappingourstyleplease {
         display: block
     }
+}
+
+.loading-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    z-index: 9999;
+    font-size: 1.2em;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.ButtonColors_primary-green__EthB4 {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.Button_text__Pv_HU {
+    display: none !important;
+}
+
+#export-pdf-button {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00acff;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+body.distraction-free-mode #header-position-handle,
+body.distraction-free-mode #top-bar-wrapper,
+body.distraction-free-mode aside.Layout_sidebar-wrapper__unavM,
+body.distraction-free-mode #__next > div.Layout_wrapper__hyU9C > section,
+body.distraction-free-mode #__next > div.Layout_wrapper__hyU9C > div.Layout_footer-wrapper__bheJQ,
+body.distraction-free-mode #visible-content-bottom-section,
+body.distraction-free-mode #\«R4spm\» > div {
+    display: none !important;
+}
+
+#guibox {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 9999;
+}
+
+#distraction-mode-button {
+    margin: 0;
 }

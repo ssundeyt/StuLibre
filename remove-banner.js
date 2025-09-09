@@ -17,7 +17,6 @@ window.addEventListener('load', function(){
 		});
 	}
 
-	/* Mobile */
 	if (window.innerWidth <= 990){
 		var container = document.getElementById('page-container');
 		if(container != null){
@@ -38,5 +37,18 @@ window.addEventListener('load', function(){
 	}catch(err){
 		console.log(err);
 	}
-	
+
+	function removeOverlay() {
+		try {
+			const overlay = document.getElementById('modal-overlay');
+			if (overlay) {
+				overlay.remove();
+			}
+		} catch(err) {
+			console.log(err);
+		}
+	}
+
+	removeOverlay();
+	setInterval(removeOverlay, 100);
 });
