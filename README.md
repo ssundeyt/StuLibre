@@ -1,5 +1,5 @@
 <p align="center">
-![Test](StuLibreBanner)
+![Test](StuLibreBanner.png)
 </p>
 
 #
