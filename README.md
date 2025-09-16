@@ -41,8 +41,9 @@ If you're using Windows 8, 10, 11 etc., go to the directory where you downloaded
 2) Cd into your place of choice
 3) Run this command:
 ```bash
-git clone https://github.com/ssundeyt/StuLibre.git && cd StuLibre/
+git clone https://github.com/ssundeyt/StuLibre.git && cd StuLibre/ && ls
 ```
+to make sure it's all there
 4) Follow step 2 from above and onwards
 
     
