@@ -122,9 +122,9 @@ function toggleDistractionFreeMode() {
 	document.body.classList.toggle('distraction-free-mode');
 	const button = document.getElementById('distraction-mode-button');
 	if (document.body.classList.contains('distraction-free-mode')) {
-		button.textContent = "Slå på/av distraktionsfritt läge";
+		button.textContent = "Turn distraction-free reading mode on/off";
 	} else {
-		button.textContent = "Slå på/av distraktionsfritt läge";
+		button.textContent = "Turn distraction-free reading mode on/off";
 	}
 }
 
@@ -156,7 +156,7 @@ function addButtons(){
 	const distractionButton = document.createElement("button");
 	distractionButton.id = "distraction-mode-button";
 	distractionButton.classList.add("download-button-1");
-	distractionButton.textContent = "Turn distraction-free reading on/off";
+	distractionButton.textContent = "Turn distraction-free reading mode on/off";
 	distractionButton.onclick = toggleDistractionFreeMode;
 	
 	guiBox.appendChild(distractionButton);
@@ -189,3 +189,4 @@ window.addEventListener('load', function(){
 	}
 
 });
+
