@@ -21,7 +21,9 @@ This addon is not to be seen as a violation act against the terms of conditions 
     -[NEW] Website displays the download instructions directly. No user measured need to be taken 
 
 ## Installation (no git)
-    
+
+**Video tutorial:** [https://www.youtube.com/watch?v=MOcnoXZiVgk](https://www.youtube.com/watch?v=MOcnoXZiVgk)
+
 1) Download the file containing the extension by clicking <img width="86" height="26" src="https://github.com/user-attachments/assets/398b22ba-82f1-4107-be82-668e88bed334" />
 on your top right then **_Download ZIP_**. Remember where you save it.
 
