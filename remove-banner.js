@@ -51,4 +51,19 @@ window.addEventListener('load', function(){
 
 	removeOverlay();
 	setInterval(removeOverlay, 100);
+
+	function removePremiumBanner() {
+		try {
+			const premiumBanner = document.querySelector('.PremiumBannerBlobWrapper_overflow-wrapper__xsaS8');
+			if (premiumBanner) {
+				premiumBanner.remove();
+				console.log('Premium overlay has been removed.');
+			}
+		} catch(err) {
+			console.log(err);
+		}
+	}
+
+	removePremiumBanner();
+	setInterval(removePremiumBanner, 100);
 });
